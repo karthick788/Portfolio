@@ -1,66 +1,53 @@
-
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 20px;
-    background-color: #f5f7fa;
-    color: #333;
+      background: url('https://images.unsplash.com/photo-1503264116251-35a269479413?auto=format&fit=crop&w=1950&q=80') no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
 }
-
-header, footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #2c3e50;
-    color: white;
-    border-radius: 10px;
+.nav-link {
+    color: #ecf0f1 !important;
+    font-weight: 600;
 }
-
-nav a {
-    margin:10px;
-    text-decoration: none;
-    color: #ecf0f1;
-    font-weight: bold;
+.nav-link:hover {
+    color: #1abc9c !important;
 }
-
-nav a:hover {
-    text-decoration: underline;
-    color: #1abc9c;
-}
-
-h1, h2 {
-    color: #2c3e50;
-}
-
-h3 {
-    color: #34495e;
-}
-
 img {
     border-radius: 10px;
-    margin: 10px 0;
+    max-width: 100%;
+    height: auto;
 }
-
-section {
-    margin-bottom: 30px;
-    padding: 15px;
-    background: #ffffff;
-    border-radius: 10px;
-
-}
-
-ul, ol {
-    margin-left: 20px;
-}
-
 a {
+    text-decoration: none;
     color: #2980b9;
 }
-
 a:hover {
     color: #1abc9c;
 }
-
 footer {
     font-size: 14px;
-    margin-top: 40px;
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px;
     border-radius: 10px;
+    margin-top: 20px;
+}
+h1, h2, h3, h4, h5 {
+    color: #2c3e50;
+    font-weight: 600;
+}
+blockquote {
+    border-left: 5px solid #1abc9c;
+    padding-left: 15px;
+    font-style: italic;
+    background: #f8f9fa;
+    border-radius: 5px;
+}
+h1, h2, h3 {
+      text-shadow: 1px 1px 2px #000;
+}
+section {
+      background-color: rgba(255, 255, 255, 0.85);
+      color: #000;
+}
+header{
+      background-color: rgba(44, 62, 80, 0.9);
 }
